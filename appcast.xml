@@ -3,6 +3,27 @@
     <channel>
         <title>T4SKAG3NT</title>
         <item>
+            <title>0.1.1</title>
+            <pubDate>Wed, 07 Oct 2026 10:05:05 -0700</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# T4SKAG3NT 0.1.1 Foundation Preview
+
+This validation update strengthens unattended application maintenance:
+
+- Preserves the previous signed application before installing an update.
+- Requires a healthy relaunch receipt from the new build.
+- Restores the previous build automatically if the new build cannot start cleanly.
+- Allows a Sparkle-requested relaunch while retaining the normal “keep working” behavior for Command-Q.
+- Includes the signed update-recovery helper in package verification.
+
+This remains a Foundation Preview for controlled testing on the designated Mac mini.
+]]></description>
+            <enclosure url="https://github.com/bmicallef/t4skag3nt-updates/releases/download/v0.1.1-build.2/T4SKAG3NT-0.1.1-2.zip" length="17080276" type="application/octet-stream" sparkle:edSignature="qIIkeblossIqPmR3wC24pJFPbfy+6uoQ3kEmyJdItnANKY3Bk19Jsn32QcqGqQdVYVvCIpW7lJBsSE6Qe1VMBA=="/>
+        </item>
+        <item>
             <title>0.1.0</title>
             <pubDate>Wed, 07 Oct 2026 10:01:33 -0700</pubDate>
             <sparkle:version>1</sparkle:version>
