@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>T4SKAG3NT</title>
+        <item>
+            <title>0.1.0</title>
+            <pubDate>Wed, 07 Oct 2026 10:01:33 -0700</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# T4SKAG3NT 0.1.0 Foundation Preview
+
+This preview establishes the native Mac coordination foundation:
+
+- Named coordinator and persistent specialist agents
+- Local MLX and optional OpenAI/Anthropic routing
+- Streaming conversations, supported attachments, and multiple windows
+- Background task queue with priorities, approvals, budgets, and recovery
+- Encrypted private state and bounded `~/Documents/T4SKAG3NT` artifacts
+- Health, audit, usage, model-integrity, backup, and restore controls
+- Signed automatic updates through Sparkle
+
+This is a Foundation acceptance build. Remote Apple-device clients, Apple
+personal-service integrations, Projects, durable semantic memory, and recurring
+schedules remain later milestones.
+]]></description>
+            <enclosure url="https://github.com/bmicallef/t4skag3nt-updates/releases/download/v0.1.0-build.1/T4SKAG3NT-0.1.0-1.zip" length="17080286" type="application/octet-stream" sparkle:edSignature="zn7QNcNOOUXn/sge/pqbzpI91m9kl+CqCwmu51FvwSRERkrLmOvwyZp4OUsztd4ryZ+cnbrNM613VSboQvFtCA=="/>
+        </item>
+    </channel>
+</rss>
