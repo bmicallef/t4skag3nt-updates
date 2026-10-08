@@ -3,6 +3,29 @@
     <channel>
         <title>T4SKAG3NT</title>
         <item>
+            <title>0.1.3</title>
+            <pubDate>Thu, 08 Oct 2026 17:38:35 -0600</pubDate>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>0.1.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# T4SKAG3NT 0.1.3 Foundation MVP Candidate
+
+This release introduces the complete first-run and configured workspace experience for the Foundation milestone:
+
+- Adds the new electric-blue, teal, and magenta application identity throughout the app.
+- Replaces the configuration form with a guided five-step setup and clear progress.
+- Adds a coordinator-centered Home workspace with conversation starters and quick actions.
+- Surfaces agent input requests, approvals, active background work, and recent files directly on Home.
+- Uses hardware-neutral “local AI server” language throughout onboarding.
+- Expands privacy filtering and adversarial tests for financial, identity, medical, tax, and credential data.
+- Retains the existing encrypted storage, local-first routing, approvals, budgets, restart recovery, and automatic-update safeguards.
+
+This is the Foundation MVP candidate for final clean-environment and accessibility acceptance.
+]]></description>
+            <enclosure url="https://github.com/bmicallef/t4skag3nt-updates/releases/download/v0.1.3-build.4/T4SKAG3NT-0.1.3-4.zip" length="18762458" type="application/octet-stream" sparkle:edSignature="fYrTGh1zd3vYhHL/fUD0lRhEiFFgJv4GIda0N4uKNstWuFAa25o23WxplIhoWkpht07gQa8mo7DAXec/81IqBQ=="/>
+        </item>
+        <item>
             <title>0.1.2</title>
             <pubDate>Wed, 07 Oct 2026 10:30:15 -0700</pubDate>
             <sparkle:version>3</sparkle:version>
@@ -42,31 +65,6 @@ This validation update strengthens unattended application maintenance:
 This remains a Foundation Preview for controlled testing on the designated Mac mini.
 ]]></description>
             <enclosure url="https://github.com/bmicallef/t4skag3nt-updates/releases/download/v0.1.1-build.2/T4SKAG3NT-0.1.1-2.zip" length="17080276" type="application/octet-stream" sparkle:edSignature="qIIkeblossIqPmR3wC24pJFPbfy+6uoQ3kEmyJdItnANKY3Bk19Jsn32QcqGqQdVYVvCIpW7lJBsSE6Qe1VMBA=="/>
-        </item>
-        <item>
-            <title>0.1.0</title>
-            <pubDate>Wed, 07 Oct 2026 10:01:33 -0700</pubDate>
-            <sparkle:version>1</sparkle:version>
-            <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# T4SKAG3NT 0.1.0 Foundation Preview
-
-This preview establishes the native Mac coordination foundation:
-
-- Named coordinator and persistent specialist agents
-- Local MLX and optional OpenAI/Anthropic routing
-- Streaming conversations, supported attachments, and multiple windows
-- Background task queue with priorities, approvals, budgets, and recovery
-- Encrypted private state and bounded `~/Documents/T4SKAG3NT` artifacts
-- Health, audit, usage, model-integrity, backup, and restore controls
-- Signed automatic updates through Sparkle
-
-This is a Foundation acceptance build. Remote Apple-device clients, Apple
-personal-service integrations, Projects, durable semantic memory, and recurring
-schedules remain later milestones.
-]]></description>
-            <enclosure url="https://github.com/bmicallef/t4skag3nt-updates/releases/download/v0.1.0-build.1/T4SKAG3NT-0.1.0-1.zip" length="17080286" type="application/octet-stream" sparkle:edSignature="zn7QNcNOOUXn/sge/pqbzpI91m9kl+CqCwmu51FvwSRERkrLmOvwyZp4OUsztd4ryZ+cnbrNM613VSboQvFtCA=="/>
         </item>
     </channel>
 </rss>
