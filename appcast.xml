@@ -3,6 +3,24 @@
     <channel>
         <title>T4SKAG3NT</title>
         <item>
+            <title>0.1.5</title>
+            <pubDate>Thu, 08 Oct 2026 21:17:54 -0600</pubDate>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>0.1.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# T4SKAG3NT 0.1.5 Edge-to-Edge Artwork Update
+
+This update refines the setup experience introduced in 0.1.4:
+
+- Extends the luminous task artwork across the full width of the main setup view.
+- Applies the edge-to-edge artwork treatment consistently across every setup step.
+- Keeps headings, forms, cards, and safety information in a centered readable column.
+- Preserves the glass styling, centered navigation, and local-first setup behavior.
+]]></description>
+            <enclosure url="https://github.com/bmicallef/t4skag3nt-updates/releases/download/v0.1.5-build.6/T4SKAG3NT-0.1.5-6.zip" length="19868499" type="application/octet-stream" sparkle:edSignature="o0YKs44ozYKmWh3bGOZhHUTWfQY04+B4Cyj2v5hnOH0OOf9hsAC+N6IvIRXP7NOAUHm7RbsDxpLR6VlmB1dsAw=="/>
+        </item>
+        <item>
             <title>0.1.4</title>
             <pubDate>Thu, 08 Oct 2026 21:07:17 -0600</pubDate>
             <sparkle:version>5</sparkle:version>
@@ -47,26 +65,6 @@ This release introduces the complete first-run and configured workspace experien
 This is the Foundation MVP candidate for final clean-environment and accessibility acceptance.
 ]]></description>
             <enclosure url="https://github.com/bmicallef/t4skag3nt-updates/releases/download/v0.1.3-build.4/T4SKAG3NT-0.1.3-4.zip" length="18762458" type="application/octet-stream" sparkle:edSignature="fYrTGh1zd3vYhHL/fUD0lRhEiFFgJv4GIda0N4uKNstWuFAa25o23WxplIhoWkpht07gQa8mo7DAXec/81IqBQ=="/>
-        </item>
-        <item>
-            <title>0.1.2</title>
-            <pubDate>Wed, 07 Oct 2026 10:30:15 -0700</pubDate>
-            <sparkle:version>3</sparkle:version>
-            <sparkle:shortVersionString>0.1.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# T4SKAG3NT 0.1.2 Foundation Preview
-
-This validation update strengthens unattended coordination and recovery:
-
-- Adds a destructive packaged-app restart test that proves interrupted safe work is recovered without retaining partial output.
-- Adds packaged coordinator delegation validation, including bounded specialist creation, linked task context, auditing, and result routing back to the parent conversation.
-- Adds a timed concurrency check proving that five jobs can overlap while excess work remains queued until capacity returns.
-- Runs lifecycle, restart recovery, delegation, and concurrency checks as part of every package verification.
-
-This remains a Foundation Preview for controlled testing on the designated Mac mini.
-]]></description>
-            <enclosure url="https://github.com/bmicallef/t4skag3nt-updates/releases/download/v0.1.2-build.3/T4SKAG3NT-0.1.2-3.zip" length="17098364" type="application/octet-stream" sparkle:edSignature="IeYDobtaY4nS4+8oxEneeMtMbuskEYTeT5hkSsG9NUQkSrXdD2DVw5Py4GWdJp4Jji0ny5aBgogOx6uIVzFkBw=="/>
         </item>
     </channel>
 </rss>
