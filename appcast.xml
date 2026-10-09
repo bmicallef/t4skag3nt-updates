@@ -3,6 +3,25 @@
     <channel>
         <title>T4SKAG3NT</title>
         <item>
+            <title>0.1.9</title>
+            <pubDate>Thu, 08 Oct 2026 22:38:16 -0600</pubDate>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>0.1.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# T4SKAG3NT 0.1.9 Background Model Downloads
+
+This update keeps setup moving while optional local models download:
+
+- Allows setup to continue while sub-agent models download in the background.
+- Lets users move through setup while a newly selected coordination model downloads; final readiness is checked before startup.
+- Keeps incomplete sub-agent models out of task routing until their downloads are complete and verified.
+- Automatically resumes configured partial model downloads after setup or an app relaunch.
+- Preserves visible download progress and model roles on the AI models setup page.
+]]></description>
+            <enclosure url="https://github.com/bmicallef/t4skag3nt-updates/releases/download/v0.1.9-build.10/T4SKAG3NT-0.1.9-10.zip" length="19947330" type="application/octet-stream" sparkle:edSignature="SE6HaKdtLEJlybHk5KkyJP6H2VE6pPCcuhG+c1+CRh7YF+Vcz75RDnx+hizUInzpquyw9+Yy1JCaIqwyXu+mAA=="/>
+        </item>
+        <item>
             <title>0.1.8</title>
             <pubDate>Thu, 08 Oct 2026 22:18:14 -0600</pubDate>
             <sparkle:version>9</sparkle:version>
@@ -39,27 +58,6 @@ This update refines the new model and provider setup experience:
 - Includes the expanded, hardware-filtered local MLX model library introduced in 0.1.6.
 ]]></description>
             <enclosure url="https://github.com/bmicallef/t4skag3nt-updates/releases/download/v0.1.7-build.8/T4SKAG3NT-0.1.7-8.zip" length="19935275" type="application/octet-stream" sparkle:edSignature="eDgVs1GW6orZzer6zTaY0GBN/vvn+ozqLVgw80AcdrGGSskJIgLai7nhzNFyOuX2j3Ep0iKEex+j7Vz7VEi2Ag=="/>
-        </item>
-        <item>
-            <title>0.1.6</title>
-            <pubDate>Thu, 08 Oct 2026 21:51:53 -0600</pubDate>
-            <sparkle:version>7</sparkle:version>
-            <sparkle:shortVersionString>0.1.6</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# T4SKAG3NT 0.1.6 Model Setup Update
-
-This update makes the AI model setup cleaner and more capable:
-
-- Detects compatible local models already downloaded on the Mac.
-- Adds a focused local model library with a broader set of verified Hugging Face MLX models, filtered for this Mac's memory.
-- Offers small, balanced, and higher-capability model families from Qwen, Llama, Gemma, Phi, and Mistral where the hardware permits.
-- Replaces inline cloud credentials with a guided provider registration window.
-- Verifies OpenAI and Anthropic API keys directly with the provider before registration.
-- Loads the supported models available to the registered account and allows one or more to be selected.
-- Stores provider keys securely in Apple Keychain and preserves compatibility with existing settings.
-]]></description>
-            <enclosure url="https://github.com/bmicallef/t4skag3nt-updates/releases/download/v0.1.6-build.7/T4SKAG3NT-0.1.6-7.zip" length="19935294" type="application/octet-stream" sparkle:edSignature="XITPkulEtyDa7pgGMOQk8/7RMx6xzrCUgBTIfood1MCkMB9FAo2xgW8KlS1G8pIQ04xfFPAqgy/C4RxbIMczBQ=="/>
         </item>
     </channel>
 </rss>
