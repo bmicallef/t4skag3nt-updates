@@ -3,6 +3,23 @@
     <channel>
         <title>T4SKAG3NT</title>
         <item>
+            <title>0.1.7</title>
+            <pubDate>Thu, 08 Oct 2026 21:56:00 -0600</pubDate>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>0.1.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# T4SKAG3NT 0.1.7 Provider Registration Refinement
+
+This update refines the new model and provider setup experience:
+
+- Keeps cloud providers visibly unregistered after relaunch until their API key has been verified again.
+- Preserves selected model preferences without ever writing setup credentials into the setup draft.
+- Includes the expanded, hardware-filtered local MLX model library introduced in 0.1.6.
+]]></description>
+            <enclosure url="https://github.com/bmicallef/t4skag3nt-updates/releases/download/v0.1.7-build.8/T4SKAG3NT-0.1.7-8.zip" length="19935275" type="application/octet-stream" sparkle:edSignature="eDgVs1GW6orZzer6zTaY0GBN/vvn+ozqLVgw80AcdrGGSskJIgLai7nhzNFyOuX2j3Ep0iKEex+j7Vz7VEi2Ag=="/>
+        </item>
+        <item>
             <title>0.1.6</title>
             <pubDate>Thu, 08 Oct 2026 21:51:53 -0600</pubDate>
             <sparkle:version>7</sparkle:version>
@@ -40,29 +57,6 @@ This update refines the setup experience introduced in 0.1.4:
 - Preserves the glass styling, centered navigation, and local-first setup behavior.
 ]]></description>
             <enclosure url="https://github.com/bmicallef/t4skag3nt-updates/releases/download/v0.1.5-build.6/T4SKAG3NT-0.1.5-6.zip" length="19868499" type="application/octet-stream" sparkle:edSignature="o0YKs44ozYKmWh3bGOZhHUTWfQY04+B4Cyj2v5hnOH0OOf9hsAC+N6IvIRXP7NOAUHm7RbsDxpLR6VlmB1dsAw=="/>
-        </item>
-        <item>
-            <title>0.1.4</title>
-            <pubDate>Thu, 08 Oct 2026 21:07:17 -0600</pubDate>
-            <sparkle:version>5</sparkle:version>
-            <sparkle:shortVersionString>0.1.4</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# T4SKAG3NT 0.1.4 Setup Experience Update
-
-This release brings the polished first-run experience to the installed app:
-
-- Adds a three-second branded launch screen with a luminous progress bar.
-- Enlarges and aligns the application identity in the setup sidebar.
-- Introduces the new “Welcome to your local task agent!” opening experience.
-- Adds glossy glass surfaces and larger, more readable onboarding content.
-- Carries the electric-blue, teal, and magenta visual language through every setup step.
-- Adds step-specific coordinator, model, safety, storage, and completion artwork.
-- Centers the primary setup action for a calmer, more consistent flow.
-
-The underlying local-first privacy, approval, storage, model, and update safeguards remain unchanged.
-]]></description>
-            <enclosure url="https://github.com/bmicallef/t4skag3nt-updates/releases/download/v0.1.4-build.5/T4SKAG3NT-0.1.4-5.zip" length="19861451" type="application/octet-stream" sparkle:edSignature="io/txVtAZYXbm4Mn+Q10eSS2hEglURx4v8MSFEoz1uoLAYl34VXFZiI9JDF/33VUK1NDeHKJlmOB9jwUCCoqCA=="/>
         </item>
     </channel>
 </rss>
